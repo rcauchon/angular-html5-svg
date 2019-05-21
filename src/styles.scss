@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+$color-lgs : #8627FF;
+$color-lgs-light : lighten($color-lgs, 10%);
+$color-lgs-dark : darken($color-lgs, 10%);
+
+.bg-text-lgs {
+  background-color: $color-lgs;
+}
+
+.text-lgs {
+  color: $color-lgs;
+}
+
+.pane {
+  background-color: lightgray;
+  margin: 5px;
+  padding: 5px;
+}
+
+.bg-text-lgs-light{
+    background-color: $color-lgs-light;
+}
+
+.bg-text-lgs-dark{
+    background-color: $color-lgs-dark;
+}

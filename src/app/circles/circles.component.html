@@ -1,0 +1,18 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Drawing Circles and Ellipses</h5>
+      <p class="card-text">Tutorial 5 </p>
+      <button class="btn btn-primary" (click)="toggle()">{{buttonName}} <fa-icon icon="{{buttonIcon}}"></fa-icon></button>
+    </div>
+  </div>
+  <ng-container *ngIf="show">
+      <div class="pane" style="min-height: 250px">
+       <svg id="circle1" viewBox='0 0 250 250'>
+         <circle cx="120" cy="120" r="100" fill="#8627FF"/>
+       </svg>
+       <svg id="ellipse1" viewBox='0 0 300 100'>
+          <ellipse cx="150" cy="50" rx="120" ry="50" fill="#8627FF"/>
+        </svg>
+      </div>
+
+  </ng-container>

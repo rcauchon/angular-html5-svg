@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Drawing Polylines</h5>
+      <p class="card-text">Tutorial 6 </p>
+      <button class="btn btn-primary" (click)="toggle()">{{buttonName}} <fa-icon icon="{{buttonIcon}}"></fa-icon></button>
+    </div>
+  </div>
+  <ng-container *ngIf="show">
+      <div class="pane">
+       <svg id="redline">
+         <polygon points="10,10, 10,40, 40,10" fill="#8627FF"/>
+         <polygon points="40,10, 10,40, 40,40" fill="#a35aff"/>
+       </svg>
+      </div>
+
+  </ng-container>

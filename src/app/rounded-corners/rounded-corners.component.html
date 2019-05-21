@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Creating Rounded Corners</h5>
+      <p class="card-text">Tutorial 4 </p>
+      <button class="btn btn-primary" (click)="toggle()">{{buttonName}} <fa-icon icon="{{buttonIcon}}"></fa-icon></button>
+    </div>
+  </div>
+  <ng-container *ngIf="show">
+      <div class="pane">
+       <svg id="xbigsquare" viewBox='0 0 310 210'>
+         <rect id="xrect" class="rect-border" rx="50" ry="50" x="5" y="5" width="300" height="200" fill="#8627FF" />
+       </svg>
+      
+      </div>
+
+  </ng-container>

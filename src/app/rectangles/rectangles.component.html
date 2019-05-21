@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Drawing Rectangles</h5>
+      <p class="card-text">Tutorial 3 </p>
+      <button class="btn btn-primary" (click)="toggle()">{{buttonName}} <fa-icon icon="{{buttonIcon}}"></fa-icon></button>
+    </div>
+  </div>
+  <ng-container *ngIf="show">
+      <div class="pane">
+       <svg id="bigsquare" viewBox='0 0 300 200'>
+         <rect id="rrect" class="rect-border" x="0" y="0" width="300" height="200" fill="#8627FF" />
+       </svg>
+      
+      </div>
+
+  </ng-container>
