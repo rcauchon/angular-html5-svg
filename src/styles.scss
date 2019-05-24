@@ -40,3 +40,16 @@ $color-lgs-dark : darken($color-lgs, 10%);
 .bg-text-lgs-dark{
     background-color: $color-lgs-dark;
 }
+
+.btn-primary {
+  color: #fff;
+    background-color: $color-lgs;
+    border-color: $color-lgs;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: darken($color-lgs, 10%);
+  border-color: $color-lgs; /*set the color you want here*/
+}
+

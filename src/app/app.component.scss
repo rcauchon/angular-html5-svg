@@ -1,5 +1,9 @@
+@import "../styles.scss";
 
-
-
+.btn-primary {
+    color: lightslategray;
+    background-color: red;
+    border-color: $color-lgs;
+}
 
 
